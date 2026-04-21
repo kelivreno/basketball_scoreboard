@@ -6,20 +6,20 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <h2 class="score-card">0</h2>
+                <h2 class="score-card" id="home-score">0</h2>
                 <div class="add-point">
-                   <button>+1</button>
-                   <button>+2</button>
-                   <button>+3</button>
+                   <button onclick="homePlusOne()">+1</button>
+                   <button onclick="homePlusTwo()">+2</button>
+                   <button onclick="homePlusThree()">+3</button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
-                <h2 class="score-card">0</h2>
+                <h2 class="score-card" id="guest-score">0</h2>
                 <div class="add-point">
-                   <button>+1</button>
-                   <button>+2</button>
-                   <button>+3</button>
+                   <button onclick="guestPlusOne()">+1</button>
+                   <button onclick="guestPlusTwo()">+2</button>
+                   <button onclick="guestPlusThree()">+3</button>
                 </div>
             </div>
         </div>

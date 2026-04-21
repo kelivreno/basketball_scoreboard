@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s04k019",
-  "description": "https://scrimba.com/frontend-path-c0j/~05h",
+  "name": "basketball_scoreboard",
+  "description": "basketball_scoreboard",
   "scripts": {
     "start": "vite",
     "dev": "vite",
