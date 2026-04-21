@@ -17,12 +17,19 @@ h3 {
 }
 
 .score-card {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
+
     width: 120px;
+    height: 120px;             
     margin: 20px;
 
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 .add-point {
@@ -39,5 +46,6 @@ button {
     padding: 10px 10px;
     background-color: transparent;
     color: #9AABD8;
-    
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
 }
