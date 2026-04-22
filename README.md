@@ -14,7 +14,7 @@ I was able to make six of the buttons work, I made them each as their own button
 Therefore, when I have more time, I would like to revisit these when i COULD
 
 TTOD for improvements: 
-- [] Switch-case maybe for it?
-- [] New game
-- [] Highlight leader
-- [] Add more counters, fouls, period, timer
+- [ ] Switch-case maybe for it?
+- [ ] New game
+- [ ] Highlight leader
+- [ ] Add more counters, fouls, period, timer
