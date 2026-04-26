@@ -15,6 +15,6 @@ Therefore, when I have more time, I would like to revisit these when i COULD
 
 TTOD for improvements: 
 - [ ] Switch-case maybe for it?
-- [ X ] New game
+- [X] New game
 - [ ] Highlight leader
 - [ ] Add more counters, fouls, period, timer
