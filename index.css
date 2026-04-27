@@ -74,7 +74,9 @@ button {
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
-#new-game > div {
-    display: flex;
+#new-game > div {  
+    /* It selects every div that is a direct child 
+    of the element with id="new-game" */
+    display: flex; 
     flex-direction: column;
 }
