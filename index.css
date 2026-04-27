@@ -73,3 +73,8 @@ button {
 
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
+
+#new-game > div {
+    display: flex;
+    flex-direction: column;
+}
