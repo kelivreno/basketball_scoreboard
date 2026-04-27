@@ -1,12 +1,18 @@
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
 
+let foulHome = document.getElementById("foul-home")
+let foulGuest = document.getElementById("foul-guest")
+
 let homeName = document.getElementById("home-el")
 let guestName = document.getElementById("guest-el")
 
 
 let scoreHome = 0
 let scoreGuest = 0
+
+let homeFoul = 0
+let guestFoul = 0
 
 // Home
 
@@ -48,12 +54,27 @@ function guestPlusThree() {
     updateLeader()
 
 }
+function foulHomeUpdate(){
+    homeFoul += 1
+    foulHome.textContent = homeFoul
+}
+
+function foulGuestUpdate(){
+    guestFoul += 1
+    foulGuest.textContent = guestFoul
+}
 
 function newGame() {
     scoreGuest = 0
     homeScore.textContent = scoreGuest
     scoreHome = 0
     guestScore.textContent = scoreHome
+  
+    homeFoul = 0
+    foulHome.textContent = homeFoul
+    guestFoul = 0
+    foulGuest.textContent = guestFoul
+    
     updateLeader()
 }
 

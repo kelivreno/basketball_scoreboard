@@ -13,17 +13,14 @@
                    <button onclick="homePlusTwo()">+2</button>
                    <button onclick="homePlusThree()">+3</button>
                 </div>
+                  <div>
+                    <p>FOUL</p>
+                    <p class="foulcount" id="foul-home"></p>
+                    <button onclick="foulHomeUpdate()">+1</button>
+                </div>
             </div>
             <div id="new-game">
                 <button onclick="newGame()">NEW GAME</button>
-                <div>
-                    <p>FOUL</p>
-                    <p class="foulcount" id="foul-el"></p>
-                    <button>+1</button>
-                </div>
-                <div>
-
-                </div>
             </div>
             <div>
                 <h3 id="guest-el">GUEST</h3>
@@ -32,6 +29,11 @@
                    <button onclick="guestPlusOne()">+1</button>
                    <button onclick="guestPlusTwo()">+2</button>
                    <button onclick="guestPlusThree()">+3</button>
+                </div>
+                <div>
+                    <p>FOUL</p>
+                    <p class="foulcount" id="foul-guest"></p>
+                    <button onclick="foulGuestUpdate()">+1</button>
                 </div>
             </div>
         </div>
