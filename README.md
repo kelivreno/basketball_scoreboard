@@ -14,7 +14,10 @@ I was able to make six of the buttons work, I made them each as their own button
 Therefore, when I have more time, I would like to revisit these when i COULD
 
 TTOD for improvements: 
-- [ ] Switch-case maybe for it?
+<!-- - [ ] Switch-case maybe for it? -->
 - [X] New game
 - [X] Highlight leader
-- [ ] Add more counters, fouls, period, timer
+- [X] fouls
+- [ ] Period
+- [X] Timer
+- [ ] Showing legit teams where you can select it
